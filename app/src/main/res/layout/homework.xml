@@ -117,6 +117,14 @@
 
     </LinearLayout>
 
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="пауза"
+        android:textOn="воспроизведение" />
+
     <Switch
         android:id="@+id/switch2"
         android:layout_width="match_parent"
@@ -136,13 +144,5 @@
         android:text="Микрофон вкл.\выкл."
         android:textOff="выкл"
         android:textOn="вкл" />
-
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ToggleButton"
-        android:textOff="пауза"
-        android:textOn="воспроизведение" />
 
 </LinearLayout>
