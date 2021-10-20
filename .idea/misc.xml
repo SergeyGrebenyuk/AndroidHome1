@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/calculator.xml" value="0.25" />
         <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/home.xml" value="0.22" />
         <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/home1.xml" value="0.33" />
+        <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/homeMy.xml" value="0.209375" />
+        <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/homework.xml" value="0.13333333333333333" />
+        <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/test.xml" value="0.209375" />
         <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/test_layout.xml" value="0.1" />
       </map>
     </option>
