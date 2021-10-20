@@ -1,0 +1,381 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$/../..\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision c59e44901cd5ee0e4eab4e1dfa0e4157da97556e)
++++ b/.idea/vcs.xml	(date 1634655690759)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/activity_main.xml\" value=\"0.22\" />\r\n        <entry key=\"..\\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/home.xml\" value=\"0.22\" />\r\n        <entry key=\"..\\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/home1.xml\" value=\"0.33\" />\r\n        <entry key=\"..\\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/test_layout.xml\" value=\"0.1\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"Android Studio default JDK\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision c59e44901cd5ee0e4eab4e1dfa0e4157da97556e)
++++ b/.idea/misc.xml	(date 1634765977344)
+@@ -4,8 +4,12 @@
+     <option name="filePathToZoomLevelMap">
+       <map>
+         <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/activity_main.xml" value="0.22" />
++        <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/calculator.xml" value="0.25" />
+         <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/home.xml" value="0.22" />
+         <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/home1.xml" value="0.33" />
++        <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/homeMy.xml" value="0.209375" />
++        <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/homework.xml" value="0.13333333333333333" />
++        <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/test.xml" value="0.209375" />
+         <entry key="..\:/EDUCATION/AndroidStudioProjects/AndroidHome1/app/src/main/res/layout/test_layout.xml" value="0.1" />
+       </map>
+     </option>
+Index: app/src/main/res/values/styles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/styles.xml b/app/src/main/res/values/styles.xml
+new file mode 100644
+--- /dev/null	(date 1634746758500)
++++ b/app/src/main/res/values/styles.xml	(date 1634746758500)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++
++    <style name="button2">
++        <item name="android:layout_width">wrap_content</item>
++        <item name="android:layout_height">wrap_content</item>
++        <item name="android:layout_weight">1</item>
++    </style>
++
++    <style name="button3">
++        <item name="android:layout_width">match_parent</item>
++        <item name="android:layout_height">match_parent</item>
++        <item name="android:layout_weight">1</item>
++    </style>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/layout/calculator.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n             android:layout_width=\"match_parent\"\r\n             android:layout_height=\"match_parent\">\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/calculator.xml b/app/src/main/res/layout/calculator.xml
+--- a/app/src/main/res/layout/calculator.xml	(revision c59e44901cd5ee0e4eab4e1dfa0e4157da97556e)
++++ b/app/src/main/res/layout/calculator.xml	(date 1634765907579)
+@@ -1,6 +1,243 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-             android:layout_width="match_parent"
+-             android:layout_height="match_parent">
++<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent">
+ 
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="vertical">
++
++        <androidx.appcompat.widget.AppCompatImageView
++            android:layout_width="match_parent"
++            android:layout_height="125dp"
++            android:background="@color/white"
++            android:visibility="visible"
++            app:srcCompat="@drawable/calculator1" />
++
++        <LinearLayout
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:gravity="center_horizontal|center_vertical"
++            android:orientation="vertical">
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:orientation="horizontal">
++
++                <Button
++                    android:id="@+id/buttonclear"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="C"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/buttondel"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="d"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button_percent"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="%"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/buttondivide"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="/"
++                    android:textSize="40sp" />
++
++            </LinearLayout>
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:orientation="horizontal">
++
++                <Button
++                    android:id="@+id/button1"
++                    style="@style/Widget.MaterialComponents.Button"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="1"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button2"
++                    style="@style/Widget.MaterialComponents.Button"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="2"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button3"
++                    style="@style/Widget.MaterialComponents.Button"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="3"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button10"
++                    style="@style/Widget.MaterialComponents.Button"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="*"
++                    android:textSize="40sp" />
++
++            </LinearLayout>
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:orientation="horizontal">
++
++                <Button
++                    android:id="@+id/button4"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="4"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button5"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="5"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button6"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="6"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button11"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="+"
++                    android:textSize="40sp" />
++
++            </LinearLayout>
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:orientation="horizontal">
++
++                <Button
++                    android:id="@+id/button7"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="7"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button8"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="8"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button9"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="9"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/button12"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="-"
++                    android:textSize="40sp" />
++
++            </LinearLayout>
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:orientation="horizontal">
++
++                <Button
++                    android:id="@+id/button0"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="2"
++                    android:text="0"
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/buttoncomma"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="."
++                    android:textSize="40sp" />
++
++                <Button
++                    android:id="@+id/buttonequls"
++                    android:layout_width="0dp"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="2dp"
++                    android:layout_weight="1"
++                    android:text="="
++                    android:textSize="40sp" />
++
++            </LinearLayout>
++
++        </LinearLayout>
++
++        <CalendarView
++            android:id="@+id/calendarView"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content" />
++    </LinearLayout>
++
++</ScrollView>
+Index: app/src/main/java/com/grebenyuk/androidhome1/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.grebenyuk.androidhome1;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.os.Bundle;\r\n\r\npublic class MainActivity extends AppCompatActivity {\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.home);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/grebenyuk/androidhome1/MainActivity.java b/app/src/main/java/com/grebenyuk/androidhome1/MainActivity.java
+--- a/app/src/main/java/com/grebenyuk/androidhome1/MainActivity.java	(revision c59e44901cd5ee0e4eab4e1dfa0e4157da97556e)
++++ b/app/src/main/java/com/grebenyuk/androidhome1/MainActivity.java	(date 1634750083089)
+@@ -9,6 +9,6 @@
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+-        setContentView(R.layout.home);
++        setContentView(R.layout.calculator);
+     }
+ }
+\ No newline at end of file
+Index: .idea/deploymentTargetDropDown.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"deploymentTargetDropDown\">\r\n    <targetSelectedWithDropDown>\r\n      <Target>\r\n        <type value=\"QUICK_BOOT_TARGET\" />\r\n        <deviceKey>\r\n          <Key>\r\n            <type value=\"VIRTUAL_DEVICE_PATH\" />\r\n            <value value=\"C:\\Users\\Sergey\\.android\\avd\\Pixel_3a_API_30.avd\" />\r\n          </Key>\r\n        </deviceKey>\r\n      </Target>\r\n    </targetSelectedWithDropDown>\r\n    <timeTargetWasSelectedWithDropDown value=\"2021-10-19T14:07:24.482873200Z\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deploymentTargetDropDown.xml b/.idea/deploymentTargetDropDown.xml
+--- a/.idea/deploymentTargetDropDown.xml	(revision c59e44901cd5ee0e4eab4e1dfa0e4157da97556e)
++++ b/.idea/deploymentTargetDropDown.xml	(date 1634761364705)
+@@ -1,17 +1,17 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="deploymentTargetDropDown">
+-    <targetSelectedWithDropDown>
++    <runningDeviceTargetSelectedWithDropDown>
+       <Target>
+-        <type value="QUICK_BOOT_TARGET" />
++        <type value="RUNNING_DEVICE_TARGET" />
+         <deviceKey>
+           <Key>
+-            <type value="VIRTUAL_DEVICE_PATH" />
+-            <value value="C:\Users\Sergey\.android\avd\Pixel_3a_API_30.avd" />
++            <type value="SERIAL_NUMBER" />
++            <value value="024df18e0005" />
+           </Key>
+         </deviceKey>
+       </Target>
+-    </targetSelectedWithDropDown>
+-    <timeTargetWasSelectedWithDropDown value="2021-10-19T14:07:24.482873200Z" />
++    </runningDeviceTargetSelectedWithDropDown>
++    <timeTargetWasSelectedWithDropDown value="2021-10-20T20:14:13.747907100Z" />
+   </component>
+ </project>
+\ No newline at end of file
